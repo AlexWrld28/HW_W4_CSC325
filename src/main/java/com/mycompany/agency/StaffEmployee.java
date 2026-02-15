@@ -21,10 +21,7 @@ public class StaffEmployee extends StaffMember
         socialSecurityNumber = socSecNumber;
         payRate = rate;
     }
-
-    public StaffEmployee(String eName, String eAddress, String ePhone) {
-        super();
-    }
+    
 
     //-----------------------------------------------------------------
     // TODO 3: complete the implementation of toString to return information 
