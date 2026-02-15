@@ -1,9 +1,6 @@
 package com.mycompany.agency;
 
-
-
-
-public class Staff extends StaffEmployee
+public class Staff
 {
     private StaffMember[] staffList;
 
@@ -24,7 +21,7 @@ public class Staff extends StaffEmployee
 
         ((Executive)staffList[0]).awardBonus(500.00);
 
-        ((TempEmploee)staffList[3]).addHours(40);
+        ((TempEmployee)staffList[3]).addHours(40);
     }
 
     //-----------------------------------------------------------------
