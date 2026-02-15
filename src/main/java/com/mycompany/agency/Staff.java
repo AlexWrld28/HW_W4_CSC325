@@ -3,7 +3,7 @@ package com.mycompany.agency;
 
 
 
-public class Staff
+public class Staff extends StaffEmployee
 {
     private StaffMember[] staffList;
 
