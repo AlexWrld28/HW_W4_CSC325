@@ -21,7 +21,7 @@ public class StaffEmployee extends StaffMember
         socialSecurityNumber = socSecNumber;
         payRate = rate;
     }
-    
+
 
     //-----------------------------------------------------------------
     // TODO 3: complete the implementation of toString to return information 
