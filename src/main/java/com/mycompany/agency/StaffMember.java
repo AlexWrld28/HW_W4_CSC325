@@ -1,18 +1,12 @@
 package com.mycompany.agency;
 
-
-
-// TODO 1: Make this class work and public
- class StaffMember
+public abstract class StaffMember
 {
     protected String name;
     protected String address;
     protected String phone;
 
-    //-----------------------------------------------------------------
-    //  Constructor: Sets up this staff member using the specified
-    //  information.
-    //-----------------------------------------------------------------
+    // Constructor
     public StaffMember(String eName, String eAddress, String ePhone)
     {
         name = eName;
@@ -20,17 +14,18 @@ package com.mycompany.agency;
         phone = ePhone;
     }
 
-    //-----------------------------------------------------------------
-    // TODO 2: Returns a string including the basic employee information.
-    //-----------------------------------------------------------------
+
+    // Returns employee basic info
+
     public String toString()
     {
-
+        return "Name: " + name + "\n" +
+                "Address: " + address + "\n" +
+                "Phone: " + phone;
     }
 
-    //-----------------------------------------------------------------
-    //  Derived classes must define the pay method for each type of
-    //  employee.
-    //-----------------------------------------------------------------
+
+    // Abstract pay method
+
     public abstract double pay();
 }
