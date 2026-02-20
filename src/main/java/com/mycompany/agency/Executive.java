@@ -30,10 +30,11 @@ public class Executive extends StaffMember
     // TODO2:  Computes and returns the pay for an executive, which is the
     //  regular employee payment plus a one-time bonus.
     //-----------------------------------------------------------------
-    public double pay()
+    public double pay(double rate)
     {
-        //Assumption: the method name is double meaning that the bonus
-        //is an extra payment, payment + payment.
-       return payment + payment;
+
+       return rate + bonus;
+       //waiting on the completion of the other todos to make sure
+        //
     }
 }
